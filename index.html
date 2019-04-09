@@ -7,6 +7,8 @@
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Jino - home page</title>
 
@@ -14,21 +16,36 @@
   <body>
 
     <header>
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">
+      <nav class="pageNavigation N/A transparent z-depth-0">
+        <div class="nav-wrapper container row valign-wrapper">
+          <a href="#" class="brand-logo col xl2">
             <img src="img/logo-white-bg.png" />
           </a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
+          <ul id="nav-mobile" class="col xl8 offset-xl2">
+            <li><a href="#"  class="temp-text-dark-blue pageNavigation-text">О нас</a></li>
+            <li><a href="#"  class="temp-text-dark-blue pageNavigation-text">Хуяс</a></li>
           </ul>
+          <div class="cityChooser col xl2 valign-wrapper">
+            <!-- Dropdown Trigger -->
+            <a class='temp-inline-dropdown dropdown-trigger btn N/A transparent temp-text-dark-blue pageNavigation-text z-depth-0' href='#' data-target='dropdown1'>Город<i class="temp-inline-icon material-icons">arrow_drop_down</i></a>
+
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#!">Пермь</a></li>
+              <li><a href="#!">Екатеринбург</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
 
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Futura Book C';
+  src: url('../fonts/futurabookc.otf') format('opentype');
+}
+
+* {
+  font-family: "Futura Book C";
+}
+
+.temp-text-dark-blue {
+  color: #001d62;
+}
+.temp-inline-icon {
+  display: inline-block !important;
+  line-height: inherit !important;
+  height: auto !important;
+  vertical-align: bottom;
+}
+.temp-inline-dropdown {
+  height: auto !important;
+}
+.pageNavigation-text {
+  padding-bottom: 6px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0.21px;
+  font-family: "Futura Book C";
+  text-transform: none;
+}
+.pageNavigation-text:hover {
+  padding-bottom: 3px;
+  border-bottom: 3px solid #fee96d;
+  background-color: rgba(0,0,0,0);
+}
+
+
+
+
+.pageNavigation {
+  margin-top: 40px;
+}
+.navigationList {
+  margin-top: 53px;
+}
