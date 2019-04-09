@@ -6,6 +6,22 @@
 * {
   font-family: "Futura Book C";
 }
+h1 {
+  font-family: Roboto;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 1.15px;
+  text-transform: uppercase;
+}
+h2 {
+  color: #00c8ff;
+  font-family: "Futura Book C";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  line-height: 25px;
+}
 
 .temp-text-dark-blue {
   color: #001d62;
@@ -33,6 +49,13 @@
   border-bottom: 3px solid #fee96d;
   background-color: rgba(0,0,0,0);
 }
+.sectionHeader {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 32.67px;
+  letter-spacing: 0.12px;
+}
 
 
 
@@ -42,4 +65,31 @@
 }
 .navigationList {
   margin-top: 53px;
+}
+.headers {
+  margin-top: 240px;
+}
+.callBtn {
+  max-width: 236px;
+  height: 58px;
+  box-shadow: 1px 3px 15px 3px rgba(0, 40, 137, 0.07);
+  border-radius: 25px;
+  background-color: #fee96d;
+  cursor: pointer;
+}
+.callBtn:hover {
+  box-shadow: 0 1px 10px 1px rgba(0, 40, 137, 0.07);
+  background-color: #fee990;
+}
+.callBtnText {
+  margin: auto;
+  font-family: "Futura Book C";
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.27px;
+}
+
+/* Секция "как работает" */
+.howWorkSection {
+  margin-top: 370px;
 }
