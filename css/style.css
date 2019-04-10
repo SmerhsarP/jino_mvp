@@ -26,6 +26,11 @@ h2 {
 .temp-text-dark-blue {
   color: #001d62;
 }
+.temp-footer-text {
+  color: #3246ae;
+  font-weight: bold;
+  font-family: "Futura Book C";
+}
 .temp-inline-icon {
   display: inline-block !important;
   line-height: inherit !important;
@@ -59,15 +64,17 @@ h2 {
 
 
 
-
 .pageNavigation {
   margin-top: 40px;
 }
 .navigationList {
   margin-top: 53px;
 }
+.mainSection {
+  margin-bottom: -535px;
+}
 .headers {
-  margin-top: 240px;
+  margin-top: 200px;
 }
 .callBtn {
   max-width: 236px;
@@ -88,8 +95,217 @@ h2 {
   font-weight: bold;
   letter-spacing: 0.27px;
 }
+.socialBlock {
+  position: relative;
+  top: 100px;
+  left: 40%;
+  transform: rotate(-90deg);
+}
+.socialLine {
+  display: inline-block;
+  position: relative;
+  bottom: 6px;
+  width: 78px;
+  height: 2px;
+  background-color: #8e9dba;
+}
+.socialItem {
+  margin-left: 50px;
+}
+.socialItemIcon {
+  width: 22px;
+  height: 22px;
+}
+.socialItemText {
+  position: relative;
+  bottom: 6px;
+  opacity: 0.54;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 11px;
+  letter-spacing: 0.12px;
+}
 
 /* Секция "как работает" */
 .howWorkSection {
   margin-top: 370px;
+}
+.instructionBlock {
+  margin-top: -620px;
+}
+.instructionItemText {
+  position: relative;
+  font-family: "Futura Book C";
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.firstPoint {
+  max-width: 380px;
+  bottom: 190px;
+  left: 108px;
+}
+.secondPoint {
+  max-width: 300px;
+  bottom: 160px;
+  right: 202px;
+}
+.thirdPoint {
+  max-width: 292px;
+  left: 153px;
+  bottom: 157px;
+}
+.fourPoint {
+  max-width: 376px;
+  right: 300px;
+  bottom: 250px;
+}
+
+/* Наши партнеры */
+.partnersSection {
+  padding: 130px 0 260px 0;
+  border-top-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+  background-color: #84d6ff;
+  box-shadow: 4px 8px 59px rgba(0, 0, 0, 0.13);
+}
+.partnersBlock {
+  margin-top: 175px;
+}
+.partnersItemText {
+  font-family: "Futura Book C";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+}
+
+/* FAQ */
+.faqSection {
+  margin-top: -150px 0 -440px 0;
+  padding-bottom: 160px;
+}
+.faqBlock {
+  margin-top: 100px;
+}
+.collapsible {
+  border: 0 !important;
+}
+.collapsible-header {
+  padding-bottom: 6px;
+  font-family: "Futura Book C";
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 35.59px;
+  letter-spacing: 0.11px;
+  border: 0;
+}
+.faqArrow {
+  font-size: 50px !important;
+  color: #fee96d;
+}
+.collapsible-header:hover {
+  padding-bottom: 0;
+  border-bottom: 6px solid #fee96d;
+}
+.collapsible-header:hover .faqArrow {
+  position: relative;
+  transform: rotate(-90deg);
+  top: 10px;
+  left: 12px;
+}
+.collapsible-body {
+  margin-left: 80px;
+  box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.17);
+  border-radius: 10px;
+  background-color: #c0e6f6;
+  opacity: 0.73;
+  font-family: "Futura Book C";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+}
+
+/* Footer */
+.page-footer {
+  padding: 40px 0 20px;
+  background: #c3ebff;
+}
+.footerLink {
+  font-size: 18px;
+  line-height: 22.04px;
+  text-decoration: underline;
+  letter-spacing: 0.18px;
+}
+.connectToUs {
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+}
+.copyright {
+  margin-top: 40px;
+  opacity: 0.65;
+  color: #3246ae;
+  font-family: "Futura Book C";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22.04px;
+  text-transform: uppercase;
+  letter-spacing: 0.18px;
+}
+
+/* Circles */
+.circle {
+  border-radius: 50%;
+  z-index: 1;
+}
+.foregroundForCircle {
+  position: relative;
+  z-index: 100;
+}
+.circle-1 {
+  position: absolute;
+  bottom: 100px;
+  right: -100px;
+  width: 985px;
+  height: 985px;
+  background-color: #99ddff;
+  opacity: 0.21;
+}
+.circle-2 {
+  position: relative;
+  bottom: 150px;
+  right: 35%;
+  width: 535px;
+  height: 535px;
+  background-color: #52c5ff;
+  opacity: 0.66;
+}
+.circle-3 {
+  position: relative;
+  top: 1025px;
+  left: 60%;
+  width: 698px;
+  height: 698px;
+  background-color: #ffed85;
+  opacity: 0.71;
+}
+.circle-4 {
+  position: relative;
+  left: 80%;
+  width: 255px;
+  height: 255px;
+  box-shadow: 4px 8px 24px rgba(0, 0, 0, 0.03);
+  background-color: #fff8ce;
+}
+.circle-5 {
+  position: relative;
+  top: 0px;
+  right: 10%;
+  width: 600px;
+  height: 600px;
+  background-color: #8dd9ff;
+  opacity: 0.96;
 }
