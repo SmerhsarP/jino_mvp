@@ -65,12 +65,13 @@ h2 {
 
 
 .pageNavigation {
-  margin-top: 40px;
+  margin: 40px 0 -985px 0;
 }
 .navigationList {
   margin-top: 53px;
 }
 .mainSection {
+  overflow: hidden;
   margin-bottom: -535px;
 }
 .headers {
@@ -164,7 +165,7 @@ h2 {
 
 /* Наши партнеры */
 .partnersSection {
-  padding: 130px 0 260px 0;
+  padding: 130px 0 130px 0;
   border-top-left-radius: 300px;
   border-bottom-right-radius: 300px;
   background-color: #84d6ff;
@@ -183,7 +184,8 @@ h2 {
 
 /* FAQ */
 .faqSection {
-  margin-top: -150px 0 -440px 0;
+  overflow: hidden;
+  margin: -150px 0 -540px 0;
   padding-bottom: 160px;
 }
 .faqBlock {
@@ -266,9 +268,9 @@ letter-spacing: 0.2px;
   z-index: 100;
 }
 .circle-1 {
-  position: absolute;
-  bottom: 100px;
-  right: -100px;
+  position: relative;
+  top: 750px;
+  right: -45%;
   width: 985px;
   height: 985px;
   background-color: #99ddff;
@@ -302,10 +304,39 @@ letter-spacing: 0.2px;
 }
 .circle-5 {
   position: relative;
-  top: 0px;
-  right: 10%;
+  bottom: 100px;
+  right: 20%;
   width: 600px;
   height: 600px;
   background-color: #8dd9ff;
   opacity: 0.96;
+}
+
+/*Decorarions*/
+.decore {
+
+}
+.decore-1 {
+   position: relative;
+   left: 45%;
+ }
+.decore-2 {
+  position: relative;
+  right: 10%;
+  top: 100px;
+}
+.decore-3 {
+  position: relative;
+  left: 50%;
+  top: 100px;
+}
+.decore-4 {
+  position: relative;
+  top: 220px;
+}
+.decore-5 {
+  position: relative;
+  bottom: 335px;
+  left: 85%;
+  z-index: 101;
 }
