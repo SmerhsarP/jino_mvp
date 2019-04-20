@@ -452,3 +452,80 @@ line-height: 30px;
 /* Text style for "jinoplatfo" */
 letter-spacing: 0.3px;
 }
+
+/* popup */
+.popupSection {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 101;
+}
+.popupBackground {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(151, 220, 255, 0.5);
+}
+.popupFormBlock {
+  padding: 25px 30px 1px;
+  box-shadow: 0 0 22px 1px rgba(1, 0, 0, 0.16);
+  border-radius: 25px;
+  background-color: #002c85;
+}
+.popupHeader {
+  margin: 0;
+font-size: 16px;
+font-weight: bold;
+line-height: 15px;
+max-width: auto;
+display: inline-block;
+text-transform: uppercase;
+border-bottom: 3px solid #fee96d;
+/* Text style for "Заполните" */
+letter-spacing: 1.6px;
+}
+.popupSubtitle {
+  margin: 0 0 20px;
+font-family: Roboto;
+font-size: 10px;
+font-weight: 400;
+line-height: 15 px;
+/* Text style for "Остальное" */
+letter-spacing: 1px;
+}
+.popupLabel {
+  color: white;
+font-family: Roboto;
+font-size: 11px;
+font-weight: 700;
+line-height: 32.05px;
+text-transform: uppercase;
+/* Text style for "ф, ио" */
+letter-spacing: 1.1px;
+}
+.popupInput {
+  height: 48px !important;
+border-radius: 13px !important;
+background-color: #ffffff !important;
+}
+.popupAddrDesc {
+  margin: 10px 0 20px;
+font-family: Roboto;
+font-size: 10px;
+font-weight: 400;
+line-height: 10px;
+/* Text style for "Укажите гд" */
+letter-spacing: 1px;
+}
+.popupBtn {
+  font-family: "Futura Book C";
+  padding: 10px 30px;
+box-shadow: 1px 3px 15px 3px rgba(0, 40, 137, 0.18);
+border-radius: 30px;
+background-color: #fee96d;
+font-size: 24px;
+font-weight: bold;
+line-height: 36px;
+/* Text style for "Отправить" */
+letter-spacing: 0.2px;
+}
