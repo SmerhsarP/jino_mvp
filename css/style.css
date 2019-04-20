@@ -340,3 +340,115 @@ letter-spacing: 0.2px;
   left: 85%;
   z-index: 101;
 }
+
+/* patients_pool.html */
+.patientsList {
+  margin: 200px;
+}
+.collection-item {
+  color: #3246ae !important;
+  font-weight: bold;
+  font-family: "Futura Book C";
+}
+.temp-icon-green {
+  color: green;
+}
+.temp-icon-red {
+  color: red;
+}
+
+/* about.html */
+.temp-mb-0 {
+  margin-bottom: 0;
+}
+.temp-mt-0 {
+  margin-top: 0;
+}
+.temp-pb-0 {
+  padding-bottom: 0;
+}
+.temp-text-underline {
+  text-decoration: underline;
+}
+.mainTextBlock {
+  /* color: #183682; */
+  /* Style for "Jino — это" */
+/* font-family: "Futura Book C"; */
+font-size: 36px;
+font-weight: 400;
+line-height: 36px;
+/* Text style for "J, ino" */
+/* font-size: 48px;
+letter-spacing: 0.56px; */
+/* Text style for "— это моло" */
+letter-spacing: 0.42px;
+}
+.naming {
+  font-size: 48px;
+}
+.triggerHeader {
+
+font-family: Roboto;
+font-size: 30px;
+font-weight: bold;
+line-height: 11px;
+/* Text style for "б, лизко" */
+letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.triggerDescription {
+
+font-family: "Futura Book C";
+font-size: 18px;
+font-weight: bold;
+line-height: 18px;
+/* Text style for "Готовы пря" */
+letter-spacing: 0.18px;
+}
+.reviewLogo {
+  /* Style for "17.02.19" */
+font-size: 24px;
+font-weight: bold;
+line-height: 24px;
+/* Text style for "1, 7.02.19" */
+letter-spacing: 0.24px;
+}
+.reviewText {
+  /* Style for "«По критер" */
+font-size: 24px;
+font-weight: bold;
+line-height: 24px;
+/* Text style for "«По критер" */
+letter-spacing: 0.24px;
+}
+.moreReviews {
+  padding-bottom: 55px;
+font-size: 36px;
+font-weight: bold;
+line-height: 40px;
+/* Text style for "М, ы делае" */
+letter-spacing: 0.36px;
+}
+
+.contactSection {
+  margin-top: 110px;
+}
+.contactsBlock {
+  margin-top: 115px;
+  margin-bottom: 140px;
+}
+.contactType {
+color: #5b94b1;
+font-size: 24px;
+font-weight: bold;
+line-height: 24px;
+/* Text style for "Email" */
+letter-spacing: 0.24px;
+}
+.contactValue {
+font-size: 30px;
+font-weight: bold;
+line-height: 30px;
+/* Text style for "jinoplatfo" */
+letter-spacing: 0.3px;
+}
