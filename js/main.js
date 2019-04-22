@@ -1,6 +1,8 @@
 $(document).ready(function(){
   $('.dropdown-trigger').dropdown();
 
+  $('.sidenav').sidenav();
+
   $('.collapsible').collapsible();
 });
 
@@ -8,19 +10,28 @@ $(".callBtn").on("click", function(e) {
   $(".popupSection").show();
 });
 
-var notClose = 0;
+
+var closeIconFlag = false;
+var formFlag = false;
+
 $(".popupSection").on("click", function() {
-  if (notClose == 1) {
-    notClose = 0;
+  if (formFlag) {
+    if(closeIconFlag) {
+      $(".popupSection").hide();
+    } else {
+      return 0;
+    }
   } else {
     $(".popupSection").hide();
-    notClose = 0;
   }
+  closeIconFlag = false;
+  formFlag = false;
+});
 
-});
 $(".popupFormBlock").on("click", function() {
-  notClose = 1;
+  formFlag = true;
 });
+
 $(".closeIcon").on("click", function() {
-  notClose = 1;
+  closeIconFlag = true;
 });
