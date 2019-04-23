@@ -333,6 +333,35 @@ letter-spacing: 0.2px;
   background-color: #8dd9ff;
   opacity: 0.96;
 }
+.circle-6 {
+  position: relative;
+  left: 75%;
+  margin-bottom: -405px;
+  width: 405px;
+  height: 405px;
+  background-color: #fff098;
+  opacity: 0.91;
+}
+.circle-7 {
+  position: relative;
+  right: 60%;
+  bottom: 580px;
+  margin-bottom: -746px;
+  width: 746px;
+  height: 746px;
+  background-color: #52c5ff;
+  opacity: 0.2;
+}
+.circle-8 {
+  position: relative;
+  bottom: 375px;
+  left: 85%;
+  margin-bottom: -592px;
+  width: 592px;
+  height: 592px;
+  background-color: #ffed85;
+  opacity: 0.5;
+}
 
 /*Decorarions*/
 .decore {
@@ -392,6 +421,9 @@ letter-spacing: 0.2px;
 }
 .temp-text-underline {
   text-decoration: underline;
+}
+.aboutMainSection {
+  overflow: hidden;
 }
 .mainTextBlock {
   /* color: #183682; */
@@ -454,6 +486,7 @@ letter-spacing: 0.36px;
 }
 
 .contactSection {
+  overflow: hidden;
   margin-top: 110px;
 }
 .contactsBlock {
@@ -562,7 +595,14 @@ cursor: pointer;
 
 
 
-
+@media screen and (max-width: 1400px) {
+.contactType {
+  font-size: 20px;
+}
+.contactValue {
+  font-size: 26px;
+}
+}
 @media screen and (max-width: 993px) {
   .socialBlock {
     top: 200px;
@@ -583,6 +623,9 @@ cursor: pointer;
   }
   h2 {
     font-size: 24px;
+  }
+  .mainTextBlock {
+    font-size: 30px;
   }
   .socialBlock {
     top: 300px;

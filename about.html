@@ -17,16 +17,16 @@
   <body>
 
     <header>
-      <nav class="pageNavigation temp-mb-0 N/A transparent z-depth-0">
+      <nav class="pageNavigation N/A transparent z-depth-0 temp-mb-0">
         <div class="nav-wrapper container row valign-wrapper">
-          <a href="#" class="brand-logo col xl2">
+          <a href="#" class="brand-logo col s2">
             <img src="img/logo-white-bg.png" />
           </a>
-          <ul id="nav-mobile" class="col xl8 offset-xl2">
+          <ul id="nav-mobile" class="col s5 m6 l7 offset-s3 offset-l2 offset-xl3 hide-on-small-only">
             <li><a href="#"  class="temp-text-dark-blue pageNavigation-text">О нас</a></li>
-            <li><a href="#"  class="temp-text-dark-blue pageNavigation-text">****</a></li>
+            <li><a href="#"  class="temp-text-dark-blue pageNavigation-text">Соглашение</a></li>
           </ul>
-          <div class="cityChooser col xl2 valign-wrapper">
+          <div class="cityChooser col s7 m4 l3 xl2 offset-s3 valign-wrapper">
             <!-- Dropdown Trigger -->
             <a class='temp-inline-dropdown dropdown-trigger btn N/A transparent temp-text-dark-blue pageNavigation-text z-depth-0' href='#' data-target='dropdown1'>Город<i class="temp-inline-icon material-icons">arrow_drop_down</i></a>
 
@@ -36,23 +36,25 @@
               <li><a href="#!">Екатеринбург</a></li>
             </ul>
           </div>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger temp-text-dark-blue col s1 offset-s1 hide-on-med-and-up"><i class="material-icons">menu</i></a>
         </div>
       </nav>
     </header>
 
-    <section class="mainSection temp-mb-0">
+    <section class="aboutMainSection">
+      <div class="circle circle-6"></div>
       <div class="container">
-        <div class="socialBlock foregroundForCircle">
+        <div class="socialBlock foregroundForCircle hide-on-small-only">
           <div class="socialLine"></div>
-          <a href="#" class="socialItem">
+          <a href="https://www.facebook.com/jinoplatform" class="socialItem">
             <img class="socialItemIcon" src="img/social-icon-1.png" />
             <span class="socialItemText temp-text-dark-blue">Facebook</span>
           </a>
-          <a href="#" class="socialItem">
+          <a href="https://www.instagram.com/jinoplatform/?hl=ru" class="socialItem">
             <img class="socialItemIcon" src="img/social-icon-2.png" />
             <span class="socialItemText temp-text-dark-blue">Instagram</span>
           </a>
-          <a href="#" class="socialItem">
+          <a href="https://vk.com/jinoplatform" class="socialItem">
             <img class="socialItemIcon" src="img/social-icon-3.png" />
             <span class="socialItemText temp-text-dark-blue">Vkontakte</span>
           </a>
@@ -62,9 +64,11 @@
             <h1 class="temp-text-dark-blue">Создаем среду для заботы о ваших зубах</h1>
           </div>
         </div>
-        <h3 class="sectionHeader temp-text-dark-blue">Кто мы? </h3>
+        <h3><span class="sectionHeaderBg">
+          <span class="sectionHeader temp-text-dark-blue">Кто мы?</span>
+        </span></h3>
         <div class="row">
-          <div class="mainTextBlock temp-text-dark-blue col s10">
+          <div class="mainTextBlock temp-text-dark-blue col s12 l10">
             <p>
               <span class="naming">Jino</span> — это молодая команда, менеджеров, разработчиков и других специалистов, которые заботятся о том, чтобы Ваша забота о здоровье стала комфортнее.
             </p>
@@ -76,25 +80,25 @@
             </p>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="triggers">
-      <div class="container">
-        <div class="triggersBlock temp-text-dark-blue row">
-          <div class="triggerItem col s4 offset-s2 center-align">
-            <img src="img/trigger-icon-1.png" />
-            <h4 class="triggerHeader">близко</h4>
-            <p class="triggerDescription">
-              Готовы прямо сейчас подобрать вам ближайшую стоматологию от дома
-            </p>
-          </div>
-          <div class="triggerItem col s4 center-align">
-            <img src="img/trigger-icon-2.png" />
-            <h4 class="triggerHeader">срочно</h4>
-            <p class="triggerDescription">
-              Подбор стоматологии, которая в течение 60 минут готова принять вас без записи, даже ночью
-            </p>
+        <div class="circle circle-7"></div>
+
+        <div class="triggers">
+          <div class="triggersBlock temp-text-dark-blue row">
+            <div class="triggerItem col s6 m4 offset-m2 center-align">
+              <img src="img/trigger-icon-1.png" />
+              <h4 class="triggerHeader">близко</h4>
+              <p class="triggerDescription">
+                Готовы прямо сейчас подобрать вам ближайшую стоматологию от дома
+              </p>
+            </div>
+            <div class="triggerItem col s6 m4 center-align">
+              <img src="img/trigger-icon-2.png" />
+              <h4 class="triggerHeader">срочно</h4>
+              <p class="triggerDescription">
+                Подбор стоматологии, которая в течение 60 минут готова принять вас без записи, даже ночью
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -102,14 +106,16 @@
 
     <section class="partnersSection  temp-mb-0 temp-mt-0 temp-pb-0">
       <div class="container">
-        <h3 class="sectionHeader temp-text-dark-blue">Пресса о Jino</h3>
+        <h3><span class="sectionHeaderBg">
+          <span class="sectionHeader temp-text-dark-blue">Пресса о Jino</span>
+        </span></h3>
         <div class="reviewsBlock temp-text-dark-blue">
           <div class="row valign-wrapper">
-            <div class="reviewLogo col s3">
+            <div class="reviewLogo col l3">
               <p>17.02.19</p>
               <img src="img/review-icon-1.png" alt="Разведка боем">
             </div>
-            <div class="reviewContent col s8">
+            <div class="reviewContent col l8">
               <p><a href="https://razvedka-boem.ru/" class="temp-text-dark-blue temp-text-underline">razvedka-boem.ru</a></p>
               <p class="reviewText">
                 «По критериям подготовленности презентации, питча, понятной финансовой моделью, пониманием тематики и компетенций своего проекта оценили высоко проект «Jino — стоматологическая платформа для оценки и записи на приём к стоматологу».
@@ -139,7 +145,9 @@
 
     <section class="contactSection">
       <div class="container">
-        <h3 class="sectionHeader temp-text-dark-blue">Контакты Jino</h3>
+        <h3><span class="sectionHeaderBg">
+          <span class="sectionHeader temp-text-dark-blue">Контакты Jino</span>
+        </span></h3>
         <div class="contactsBlock row">
           <div class="contactItem col s6 row">
             <span class="contactType col s4">Email</span>
@@ -163,13 +171,15 @@
           </div>
         </div>
       </div>
+      <div class="circle circle-8"></div>
     </section>
 
 
-    <footer class="page-footer">
+
+    <footer class="page-footer foregroundForCircle">
       <div class="container">
         <div class="row">
-          <div class="col l3 s12">
+          <div class="col s6 m3 l3">
             <div class="row">
               <a href="#" class="brand-logo col xl2">
                 <img src="img/logo-white-bg.png" />
@@ -180,23 +190,32 @@
               <li><a class="footerLink temp-footer-text" href="#!">Пользовательское соглашение</a></li>
             </ul>
           </div>
-          <div class="col l8">
-            <p class="connectToUs temp-footer-text center-align">
-              Пишите нам: jinoplatform@gmail.com
-              <br />
-              Звоните нам: 8 (952) 333-82-28
-            </p>
-            <p class="copyright center-align">
-              © JINO24.RU 2019
-            </p>
-          </div>
-          <div class="col l1 s12">
+          <div class="col s1 m1 l1 offset-s4 offset-l2 hide-on-med-and-up">
               <ul>
-                <li><a class="" href="#!"><img src="img/social-icon-1.png" /></a></li>
-                <li><a class="" href="#!"><img src="img/social-icon-2.png" /></a></li>
-                <li><a class="" href="#!"><img src="img/social-icon-3.png" /></a></li>
+                <li><a class="" href="https://www.facebook.com/jinoplatform"><img src="img/social-icon-1.png" /></a></li>
+                <li><a class="" href="https://www.instagram.com/jinoplatform/?hl=ru"><img src="img/social-icon-2.png" /></a></li>
+                <li><a class="" href="https://vk.com/jinoplatform"><img src="img/social-icon-3.png" /></a></li>
               </ul>
           </div>
+          <div class="col s12 m6 l6">
+            <p class="connectToUs temp-footer-text center-align">
+              Пишите нам: <a class="temp-footer-text temp-text-underline" href="mailto:jinoplatform@gmail.com">jinoplatform@gmail.com</a>
+              <br />
+              Звоните нам: <a class="temp-footer-text" href="tel: +79523338228">8 (952) 333-82-28</a>
+            </p>
+          </div>
+          <div class="col m1 l1 offset-l2 hide-on-small-only">
+              <ul>
+                <li><a class="" href="https://www.facebook.com/jinoplatform"><img src="img/social-icon-1.png" /></a></li>
+                <li><a class="" href="https://www.instagram.com/jinoplatform/?hl=ru"><img src="img/social-icon-2.png" /></a></li>
+                <li><a class="" href="https://vk.com/jinoplatform"><img src="img/social-icon-3.png" /></a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="row">
+          <p class="copyright center-align">
+            © JINO24.RU 2019
+          </p>
         </div>
       </div>
     </footer>
